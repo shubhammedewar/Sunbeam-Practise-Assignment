@@ -10,6 +10,6 @@ public class Q7_table {
         for (int i = 1; i < 11; i++) {
             System.out.println(a +"*" +i+"="+ a*i);
         }
-
+        sc.close();
     }
 }
