@@ -8,10 +8,12 @@ public class Q10_studentsArr {
         for (int i = 0; i <10; i++) { 
             nameOfStudents[i] = sc.nextLine();
         }
+
+        Arrays.sort(nameOfStudents,String.CASE_INSENSITIVE_ORDER);
+
         System.out.println("List of students: ");
         for (int i = 0; i <10; i++) { 
-            System.out.println(nameOfStudents[i]
-);
+            System.out.println(nameOfStudents[i]);
         }
 
         sc.close();
