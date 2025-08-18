@@ -1,6 +1,7 @@
 #include<iostream>
-#include<string>
 #include<algorithm>
+#include<vector>
+
 using namespace std;
 
 int main(){
@@ -8,7 +9,7 @@ int main(){
     int n;
     cout<<"Enter length of string:";
     cin>>n;
-    string st[n];
+    vector<string>st(n);
 
     for(int i=0;i<n;i++){
         string s;
