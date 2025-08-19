@@ -11,7 +11,7 @@ public class Q9_numberConverter {
             n = n/2;
         }
         
-        System.out.println("Octal: "+ st);
+        System.out.println("Binary: "+ st);
     }
     static void Octal(int n){
         String st = "";
